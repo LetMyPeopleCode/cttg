@@ -31,10 +31,14 @@
         {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
         }
       ],
       "types": []
     }
   },
-  "version": "1"
+  "version": "4"
 }
