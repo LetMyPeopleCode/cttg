@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "Cake Time The Game",
+      "invocationName": "cake game",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
