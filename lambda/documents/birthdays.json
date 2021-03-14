@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Brad Pitt",
+    "category": "Film and Television",
+    "famous_fact": "Won an Oscar in 2020 for his role as Cliff Booth in 'Once Upon a Time in Hollywood.'",
+    "month_number": 12,
+    "year": 1963
+  },
+  {
+    "name": "John F. Kennedy, JFK",
+    "category": "Historical Figures",
+    "famous_fact": "35th President of the United States and decorated World War Two veteran.",
+    "month_number": 5,
+    "year": 1917
+  },
+  {
+    "name": "Rachel Brosnahan",
+    "category": "Film and Television",
+    "famous_fact": "Won multiple Golden Globes for playing The Marvelous Mrs. Maisel.",
+    "month_number": 7,
+    "year": 1990
+  },
+  {
+    "name": "Milla Jovovich",
+    "category": "Film and Television",
+    "famous_fact": "While she's now best known for her action movie roles, she signed her first modeling contract at the age of 12.",
+    "month_number": 12,
+    "year": 1975
+  },
+  {
+    "name": "Pedro Pascal",
+    "category": "Film and Television",
+    "famous_fact": "This Chilean-born actor is best known to science fiction fans as The Mandalorian.",
+    "month_number": 4,
+    "year": 1975
+  },
+  {
+    "name": "Peter Dinklage",
+    "category": "Film and Television",
+    "famous_fact": "He increased an already-growing fan following when he took on the role of Tyrion Lannister in 'Game of Thrones.'",
+    "month_number": 6,
+    "year": 1969
+  },
+  {
+    "name": "Buster Keaton",
+    "category": "Film and Television",
+    "famous_fact": "Classic comedic actor who got his start in silent films.",
+    "month_number": 10,
+    "year": 1895
+  },
+  {
+    "name": "George Washington",
+    "category": "Historical Figures",
+    "famous_fact": "The first President of the United States, he was inaugurated in New York in 1789, the year before Washington D.C. was founded.",
+    "month_number": 2,
+    "year": 1732
+  },
+  {
+    "name": "Tony Curtis",
+    "category": "Film and Television",
+    "famous_fact": "Born Bernard Schwartz, he changed his name to Tony Curtis after getting signed to a 7 year contract by Universal in the late 1940s",
+    "month_number": 6,
+    "year": 1925
+  },
+  {
+    "name": "Marilyn Monroe",
+    "category": "Film and Television",
+    "famous_fact": "Star of 'The Misfits' and 'Some Like It Hot,' her short career propelled her to Hollywood icon status.",
+    "month_number": 6,
+    "year": 1926
+  },
+  {
+    "name": "Michael B Jordan",
+    "category": "Film and Television",
+    "famous_fact": "Playing Erik Killmonger in 'Black Panther' was not his first Marvel role. Three years earlier, he played Johnny Storm in 'The Fantastic Four.'",
+    "month_number": 2,
+    "year": 1987
+  },
+  {
+    "name": "Oprah Winfrey",
+    "category": "Film and Television",
+    "famous_fact": "In 2003, Forbes Magazine recognized her as the first African American Female to reach billionaire status.",
+    "month_number": 1,
+    "year": 1954
+  },
+  {
+    "name": "Madam CJ Walker",
+    "category": "Historical Figure",
+    "famous_fact": "Founder of a successful cosmetics company, serving the African American community, she is the first American woman to become a self-made millionaire.",
+    "month_number": 12,
+    "year": 1867
+  },
+  {
+    "name": "Serena Williams",
+    "category": "Sports",
+    "famous_fact": "A former #1 tennis player in the world and winner of over 20 grand slam singles titles.",
+    "month_number": 9,
+    "year": 1981
+  },
+  {
+    "name": "Jerry Lawson",
+    "category": "Science and Technology",
+    "famous_fact": "This African American engineer led the team that invented the video game cartridge.",
+    "month_number": 12,
+    "year": 1940
+  },
+  {
+    "name": "Jackie Robinson",
+    "category": "Sports",
+    "famous_fact": "This famed baseball player was the first African American to play in the major leagues.",
+    "month_number": 1,
+    "year": 1919
+  },
+  {
+    "name": "Bill Gates",
+    "category": "Science and Technology",
+    "famous_fact": "This Microsoft co-founder and occasional richest man in America also co-founded the philanthropic Giving Pledge with investor Warren Buffett.",
+    "month_number": 10,
+    "year": 1955
+  },
+  {
+    "name": "Alexandria Ocasio-Cortez",
+    "category": "Historical Figure",
+    "famous_fact": "She is the youngest woman elected to Congress, and during her first term, was the youngest member of Congress.",
+    "month_number": 10,
+    "year": 1989
+  },
+  {
+    "name": "Doctor Ellen Ochoa",
+    "category": "Science and Technology",
+    "famous_fact": "An American astronaut, she is the first Hispanic woman to go into space and has logged over one thousand hours orbiting the earth.",
+    "month_number": 5,
+    "year": 1958
+  },
+  {
+    "name": "Doctor Chien-Shiung Wu",
+    "category": "Science and Technology",
+    "famous_fact": "Emigrating to America in 1939 to pursue a doctorate at Berkeley, she worked on the Manhattan Project and won the inaugural Wolfe Prize for physics.",
+    "month_number": 5,
+    "year": 1912
+  },
+  {
+    "name": "Bruce Lee",
+    "category": "Film and Television",
+    "famous_fact": "Famous teacher of the martial arts and international movie star in films like 'The Big Boss' and 'Enter The Dragon.'",
+    "month_number": 11,
+    "year": 1940
+  },
+  {
+    "name": "John Boyega",
+    "category": "Film and Television",
+    "famous_fact": "He gained international star status playing Finn in the third 'Star Wars' trilogy.",
+    "month_number": 3,
+    "year": 1992
+  },
+  {
+    "name": "Lady Gaga",
+    "category": "Music",
+    "famous_fact": "In 2010, she wore a dress made of raw beef to the Video Music Awards show. The dress is so famous, it has its own Wikipedia page.",
+    "month_number": 3,
+    "year": 1986
+  },
+  {
+    "name": "Sting",
+    "category": "Music",
+    "famous_fact": "He's claimed even his mother and children now call him Sting. The name came from a former bandmate who thought his yellow and black outfits made him look like a bee.",
+    "month_number": 10,
+    "year": 1951
+  },
+  {
+    "name": "Tom Hiddleston",
+    "category": "Film and Television",
+    "famous_fact": "'Thor' director Kenneth Branagh invited Tom to audition for his breakout role as Loki after having worked with him in theater and TV projects in the UK.",
+    "month_number": 2,
+    "year": 1981
+  },
+  {
+    "name": "Jimin",
+    "category": "Music",
+    "famous_fact": "This Korean superstar is a big education booster, donating hundreds of thousands of dollars to help children with school expenses.",
+    "month_number": 10,
+    "year": 1995
+  },
+  {
+    "name": "Michelle Yeoh",
+    "category": "Film and Television",
+    "famous_fact": "This action legend has become a sci-fi legend in recent years, joining the 'Star Trek' and 'Avatar' franchises.",
+    "month_number": 8,
+    "year": 1962
+  },
+  {
+    "name": "Joseph 'Reverend Run' Simmons",
+    "category": "Music",
+    "famous_fact": "This pioneering hip-hop star is the Run in Run DMC and was inducted into the Rock and Roll Hall of Fame in 2009",
+    "month_number": 11,
+    "year": 1964
+  },
+  {
+    "name": "Gal Gadot",
+    "category": "Film and Television",
+    "famous_fact": "After winning the Miss Israel pageant, this 'Wonder Woman' star served two years in the Israeli military as a combat fitness instructor.",
+    "month_number": 4,
+    "year": 1985
+  },
+  {
+    "name": "Kamala Harris",
+    "category": "Historical Figures",
+    "famous_fact": "She is the first female Vice President of the United States and the first U.S. Vice President of African or Indian ancestry.",
+    "month_number": 10,
+    "year": 1964
+  },
+  {
+    "name": "Sandra Day O'Connor",
+    "category": "Historical Figures",
+    "famous_fact": "She is not only the first female justice to serve on the U.S. Supreme Court, she was the first woman to serve as Majority Leader in the Arizona State Senate.",
+    "month_number": 3,
+    "year": 1930
+  },
+  {
+    "name": "Margaret Thatcher",
+    "category": "Historical Figures",
+    "famous_fact": "She is not only the first female Prime Minister of the UK, but she was the longest-serving UK Prime Minister of the 20th century.",
+    "month_number": 3,
+    "year": 1930
+  }
+]
