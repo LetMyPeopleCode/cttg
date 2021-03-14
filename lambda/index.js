@@ -43,7 +43,7 @@ const LaunchRequestHandler = {
             //====================================================================
             // Set a headline and subhead to display on the screen if there is one
             //====================================================================
-            Title: 'Come on. Say "yes."',
+            Title: 'Say "yes."',
             Subtitle: 'You know you want to play.',
           },
         },
