@@ -17,7 +17,7 @@ const LaunchRequestHandler = {
     //====================================================================
 
     const speakOutput =
-      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try?';
+      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try? ';
 
     //====================================================================
     // Add a visual with Alexa Layouts
