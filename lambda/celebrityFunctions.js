@@ -10,7 +10,7 @@ exports.getRandomCeleb = function (celeb_list = []) {
   if (celebs.length === celeb_list.length) return { name: 'Alan Smithee' };
 
   // filter picked celebs out of the list
-  celeb_map = celebs.filter(function (val) {
+  var celeb_map = celebs.filter(function (val) {
     if (celeb_list.indexOf(val.name) < 0) return true;
     return false;
   });
