@@ -60,7 +60,7 @@ const LaunchRequestHandler = {
   },
 };
 
-const LaunchRequestHandler = {
+const PlayGameHandler = {
   // This function handles when your skill is launched without a requested intent.
 
   canHandle(handlerInput) {
@@ -319,6 +319,7 @@ const ErrorHandler = {
 exports.handler = Alexa.SkillBuilders.custom()
   .addRequestHandlers(
     LaunchRequestHandler,
+    PlayGameHandler,
     HelloWorldIntentHandler,
     HelpIntentHandler,
     CancelAndStopIntentHandler,
