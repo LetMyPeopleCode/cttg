@@ -16,10 +16,9 @@ const LaunchRequestHandler = {
     // Set your speech output
     //====================================================================
 
-    const speakOutput =
-      'Welcome to Cake Time. I’ll tell you a celebrity name and you try \
-    to guess the month and year they were born. See how many you can get! \
-    Would you like to play?';
+    const speakOutput = `Welcome to Cake Time. I'll tell you a celebrity name and you try
+    to guess the month and year they were born. See how many you can get!
+    Would you like to play?`;
 
     //====================================================================
     // Add a visual with Alexa Layouts
@@ -321,8 +320,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     LaunchRequestHandler,
     PlayGameHandler,
     HelloWorldIntentHandler,
-    GamePlayIntentHandler.
-    HelpIntentHandler,
+    GamePlayIntentHandler.HelpIntentHandler,
     CancelAndStopIntentHandler,
     SessionEndedRequestHandler,
     FallbackIntentHandler,
