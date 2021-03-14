@@ -60,6 +60,61 @@ const LaunchRequestHandler = {
   },
 };
 
+const LaunchRequestHandler = {
+  // This function handles when your skill is launched without a requested intent.
+
+  canHandle(handlerInput) {
+    return (
+      Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest' &&
+      Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.YesIntent'
+    );
+  },
+  handle(handlerInput) {
+    //====================================================================
+    // Set your speech output
+    //====================================================================
+
+    const speakOutput = 'Welcome to this first yes handler?';
+
+    //====================================================================
+    // Add a visual with Alexa Layouts
+    //====================================================================
+
+    // Import an Alexa Presentation Language (APL) template
+    var APL_simple = require('./documents/APL_simple.json');
+
+    // Check to make sure the device supports APL
+    if (
+      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
+        'Alexa.Presentation.APL'
+      ]
+    ) {
+      // add a directive to render the simple template
+      handlerInput.responseBuilder.addDirective({
+        type: 'Alexa.Presentation.APL.RenderDocument',
+        document: APL_simple,
+        datasources: {
+          myData: {
+            //====================================================================
+            // Set a headline and subhead to display on the screen if there is one
+            //====================================================================
+            Title: 'You said "yes"!!!',
+            Subtitle: 'You have ve made\nme so happy!',
+          },
+        },
+      });
+    }
+
+    //====================================================================
+    // Send the response back to Alexa
+    //====================================================================
+    return handlerInput.responseBuilder
+      .speak(speakOutput)
+      .reprompt(speakOutput)
+      .getResponse();
+  },
+};
+
 const HelloWorldIntentHandler = {
   canHandle(handlerInput) {
     return (
