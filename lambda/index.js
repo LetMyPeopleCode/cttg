@@ -17,35 +17,7 @@ const LaunchRequestHandler = {
     //====================================================================
 
     const speakOutput =
-      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try?';
-
-    //====================================================================
-    // Add a visual with Alexa Layouts
-    //====================================================================
-
-    // Import an Alexa Presentation Language (APL) template
-    var APL_simple = require('./documents/APL_simple.json');
-
-    // Check to make sure the device supports APL
-    if (
-      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
-        'Alexa.Presentation.APL'
-      ]
-    ) {
-      // add a directive to render our simple template
-      handlerInput.responseBuilder.addDirective({
-        type: 'Alexa.Presentation.APL.RenderDocument',
-        document: APL_simple,
-        datasources: {
-          myData: {
-            // Set a simple headline and subhead to display on a screened device.
-            // These should complement what Alexa says.
-            Title: 'Welcome',
-            Subtitle: 'Please say "hello" or "help."',
-          },
-        },
-      });
-    }
+      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try? ';
 
     //====================================================================
     // Send the response back to Alexa
@@ -90,8 +62,9 @@ const HelloWorldIntentHandler = {
         document: APL_simple,
         datasources: {
           myData: {
-            // Set a simple headline and subhead to display on a screened device.
-            // These should complement what Alexa says.
+            //====================================================================
+            // Set a headline and subhead to display on the screen if there is one
+            //====================================================================
             Title: 'Hello World!',
             Subtitle: '',
           },
@@ -141,8 +114,9 @@ const HelpIntentHandler = {
         document: APL_simple,
         datasources: {
           myData: {
-            // Set a simple headline and subhead to display on a screened device.
-            // These should complement what Alexa says.
+            //====================================================================
+            // Set a headline and subhead to display on the screen if there is one
+            //====================================================================
             Title: 'Say "hello" to me.',
             Subtitle: "I'll respond.",
           },
