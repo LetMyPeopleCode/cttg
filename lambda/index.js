@@ -34,7 +34,7 @@ const LaunchRequestHandler = {
         'Alexa.Presentation.APL'
       ]
     ) {
-      // add a directive to render our simple template
+      // add a directive to render the simple template
       handlerInput.responseBuilder.addDirective({
         type: 'Alexa.Presentation.APL.RenderDocument',
         document: APL_simple,
