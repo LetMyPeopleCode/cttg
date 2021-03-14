@@ -35,10 +35,14 @@
         {
           "name": "AMAZON.FallbackIntent",
           "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
         }
       ],
       "types": []
     }
   },
-  "version": "4"
+  "version": "5"
 }

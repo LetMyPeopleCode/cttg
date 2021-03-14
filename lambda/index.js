@@ -17,7 +17,9 @@ const LaunchRequestHandler = {
     //====================================================================
 
     const speakOutput =
-      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try? ';
+      'Welcome to Cake Time. I’ll tell you a celebrity name and you try \
+    to guess the month and year they were born. See how many you can get! \
+    Would you like to play?';
 
     //====================================================================
     // Send the response back to Alexa
