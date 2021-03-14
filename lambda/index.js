@@ -22,6 +22,35 @@ const LaunchRequestHandler = {
     Would you like to play?';
 
     //====================================================================
+    // Add a visual with Alexa Layouts
+    //====================================================================
+
+    // Import an Alexa Presentation Language (APL) template
+    var APL_simple = require('./documents/APL_simple.json');
+
+    // Check to make sure the device supports APL
+    if (
+      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
+        'Alexa.Presentation.APL'
+      ]
+    ) {
+      // add a directive to render our simple template
+      handlerInput.responseBuilder.addDirective({
+        type: 'Alexa.Presentation.APL.RenderDocument',
+        document: APL_simple,
+        datasources: {
+          myData: {
+            //====================================================================
+            // Set a headline and subhead to display on the screen if there is one
+            //====================================================================
+            Title: 'Come on. Say "yes."',
+            Subtitle: 'You know you want to play.',
+          },
+        },
+      });
+    }
+
+    //====================================================================
     // Send the response back to Alexa
     //====================================================================
     return handlerInput.responseBuilder
