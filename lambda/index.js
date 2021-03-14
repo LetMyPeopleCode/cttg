@@ -17,18 +17,21 @@ const LaunchRequestHandler = {
     //====================================================================
 
     const speakOutput =
-      'Welcome to our tutorial, you can say Hello or Help this. Which would you like to try?';
+      'Welcome to our tutorial, you can say Hello or Help. Which would you like to try?';
 
     //====================================================================
     // Add a visual with Alexa Layouts
     //====================================================================
- 
+
     // Import an Alexa Presentation Language (APL) template
     var APL_simple = require('./documents/APL_simple.json');
 
     // Check to make sure the device supports APL
-    if (Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)['Alexa.Presentation.APL']) 
-    {
+    if (
+      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
+        'Alexa.Presentation.APL'
+      ]
+    ) {
       // add a directive to render our simple template
       handlerInput.responseBuilder.addDirective({
         type: 'Alexa.Presentation.APL.RenderDocument',
@@ -46,7 +49,7 @@ const LaunchRequestHandler = {
 
     //====================================================================
     // Send the response back to Alexa
-    //====================================================================    
+    //====================================================================
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
@@ -66,19 +69,21 @@ const HelloWorldIntentHandler = {
     // Set your speech output
     //====================================================================
 
-    const speakOutput =
-      'Hello World!';
+    const speakOutput = 'Hello World!';
 
     //====================================================================
     // Add a visual with Alexa Layouts
     //====================================================================
- 
+
     // Import an Alexa Presentation Language (APL) template
     var APL_simple = require('./documents/APL_simple.json');
 
     // Check to make sure the device supports APL
-    if (Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)['Alexa.Presentation.APL']) 
-    {
+    if (
+      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
+        'Alexa.Presentation.APL'
+      ]
+    ) {
       // add a directive to render our simple template
       handlerInput.responseBuilder.addDirective({
         type: 'Alexa.Presentation.APL.RenderDocument',
@@ -96,7 +101,7 @@ const HelloWorldIntentHandler = {
 
     //====================================================================
     // Send the response back to Alexa
-    //====================================================================    
+    //====================================================================
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .withShouldEndSession(true)
@@ -115,19 +120,21 @@ const HelpIntentHandler = {
     // Set your speech output
     //====================================================================
 
-    const speakOutput =
-      'You can say "hello" to me.';
+    const speakOutput = 'You can say "hello" to me.';
 
     //====================================================================
     // Add a visual with Alexa Layouts
     //====================================================================
- 
+
     // Import an Alexa Presentation Language (APL) template
     var APL_simple = require('./documents/APL_simple.json');
 
     // Check to make sure the device supports APL
-    if (Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)['Alexa.Presentation.APL']) 
-    {
+    if (
+      Alexa.getSupportedInterfaces(handlerInput.requestEnvelope)[
+        'Alexa.Presentation.APL'
+      ]
+    ) {
       // add a directive to render our simple template
       handlerInput.responseBuilder.addDirective({
         type: 'Alexa.Presentation.APL.RenderDocument',
@@ -137,7 +144,7 @@ const HelpIntentHandler = {
             // Set a simple headline and subhead to display on a screened device.
             // These should complement what Alexa says.
             Title: 'Say "hello" to me.',
-            Subtitle: 'I\'ll respond.',
+            Subtitle: "I'll respond.",
           },
         },
       });
@@ -145,7 +152,7 @@ const HelpIntentHandler = {
 
     //====================================================================
     // Send the response back to Alexa
-    //====================================================================    
+    //====================================================================
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
