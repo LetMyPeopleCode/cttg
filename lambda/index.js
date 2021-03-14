@@ -44,7 +44,7 @@ const LaunchRequestHandler = {
             // Set a headline and subhead to display on the screen if there is one
             //====================================================================
             Title: 'Say "yes."',
-            Subtitle: 'You know you want to play.',
+            Subtitle: 'Play some Cake Time.',
           },
         },
       });
